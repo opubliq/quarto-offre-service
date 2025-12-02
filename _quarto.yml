@@ -1,0 +1,8 @@
+project:
+  type: default
+
+format:
+  PrettyPDF-pdf:
+    documentclass: scrartcl
+    toc: false
+    number-sections: true

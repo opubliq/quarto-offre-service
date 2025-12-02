@@ -1,0 +1,63 @@
+---
+title: "[Titre]"
+subtitle: "[Client]"
+lang: fr
+abstract: |
+  **Date**: [Date]
+
+  **Client**: [Nom]
+
+  **Mandat**: [Description]
+
+  **Livrables**: [Liste]
+
+  **Calendrier**: [Durée]
+
+  **Tarif**: [Montant]
+format:
+    PrettyPDF-pdf:
+        documentclass: scrartcl
+        toc: false
+        number-sections: true
+filters:
+  - highlight-text
+execute:
+  echo: false
+  message: false
+  warning: false
+fig-cap-location: top
+---
+
+\newpage
+
+# Mandat
+
+[Description du mandat]
+
+# Démarche
+
+**1. [Phase]**
+
+- [Activité]
+
+**2. [Phase]**
+
+- [Activité]
+
+# Livrables
+
+[Description des livrables]
+
+# Calendrier
+
+**[Période]**
+
+- [Jalon]
+
+# Tarifs
+
+**Investissement:** [Montant]
+
+**Paiement:**
+
+- [Modalité]
