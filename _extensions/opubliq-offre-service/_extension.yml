@@ -4,7 +4,7 @@ version: 1.0.0
 quarto-required: ">=1.4.0"
 contributes:
   formats:
-    opubliq-offre-service-pdf:
+    pdf:
       include-in-header:
         - header.tex
       include-before-body:
