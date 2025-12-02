@@ -4,18 +4,23 @@ Template Quarto pour créer des offres de service au style Opubliq.
 
 ## Utilisation
 
-1. Copier `template/template.qmd` vers un nouveau dossier
-2. Renommer et modifier selon les besoins
-3. Générer le PDF : `quarto render mon-offre.qmd`
+```bash
+quarto use template opubliq/quarto-offre-service
+```
+
+Puis renommer `template.qmd` et modifier selon les besoins.
+
+Générer le PDF :
+```bash
+quarto render mon-offre.qmd
+```
 
 ## Structure
 
 ```
-quarto-offre-service/
 ├── _extensions/          # Extensions Quarto (PrettyPDF, highlight-text)
-├── template/
-│   └── template.qmd     # Template de base
-└── exemple.qmd          # Exemple d'utilisation
+├── _quarto.yml          # Configuration
+└── template.qmd         # Template de base
 ```
 
 ## Sections du template
