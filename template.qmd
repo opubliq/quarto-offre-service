@@ -15,7 +15,7 @@ abstract: |
 
   **Tarif**: [Montant]
 format:
-    offre-pdf: default
+    opubliq-offre-service-pdf: default
 execute:
   echo: false
   message: false

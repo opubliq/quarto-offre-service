@@ -18,9 +18,10 @@ quarto render mon-offre.qmd
 ## Structure
 
 ```
-├── _extensions/          # Extensions Quarto (PrettyPDF, highlight-text)
-├── _quarto.yml          # Configuration
-└── template.qmd         # Template de base
+├── _extensions/
+│   └── opubliq-offre-service/   # Extension custom Opubliq
+├── _quarto.yml                  # Configuration
+└── template.qmd                 # Template de base
 ```
 
 ## Sections du template
