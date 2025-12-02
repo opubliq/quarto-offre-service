@@ -15,12 +15,7 @@ abstract: |
 
   **Tarif**: [Montant]
 format:
-    PrettyPDF-pdf:
-        documentclass: scrartcl
-        toc: false
-        number-sections: true
-filters:
-  - highlight-text
+    offre-pdf: default
 execute:
   echo: false
   message: false
